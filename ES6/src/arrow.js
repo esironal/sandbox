@@ -1,1 +1,2 @@
-var square = (x) => x * x
+var square = (x) => x * x;
+export { square };

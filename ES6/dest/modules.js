@@ -1,3 +1,5 @@
+"use strict";
+
 /**
  *
  * modules.js
@@ -8,6 +10,7 @@
  * @update 2015-01-31
  */
 
-import { square } from './arrow';
+var square = require("./arrow").square;
+
 
 console.log(square(2));
