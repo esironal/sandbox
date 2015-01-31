@@ -1,7 +1,7 @@
-SRC = $(wildcard src/*.es6)
-DEST = $(SRC:src/%.es6=dest/%.js)
+SRC = $(wildcard src/*.js)
+DEST = $(SRC:src/%.js=dest/%.js)
 
 dest: $(DEST)
-dest/%.js: src/%.es6
+dest/%.js: src/%.js
 	mkdir -p $(@D)
 	6to5 $< -o $@
