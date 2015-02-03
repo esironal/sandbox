@@ -11,3 +11,8 @@ console.log(PI);
 
 // PI is read-only
 // PI = 3.14;
+
+// Destructuring
+var [a, b, d] = [1, 2, 3];
+
+var { a, b } = { a: 1, b: 2 };
