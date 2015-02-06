@@ -1,0 +1,21 @@
+{
+  "name": "HelloWorld",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SFantasy/sandbox",
+  "authors": [
+    "Fantasy Shao <forever.fantasy27@gmail.com>"
+  ],
+  "description": "HelloWorld Web Components",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.5.4",
+    "polymer": "~0.5.4"
+  }
+}
