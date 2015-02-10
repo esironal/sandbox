@@ -1,0 +1,8 @@
+{
+  "name": "ES6",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "6to5": "^3.5.3"
+  }
+}
