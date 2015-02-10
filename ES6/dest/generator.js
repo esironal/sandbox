@@ -1,6 +1,7 @@
 "use strict";
 
-var test = regeneratorRuntime.mark( // Generator
+var test = regeneratorRuntime.mark(
+// Generator
 function test() {
   return regeneratorRuntime.wrap(function test$(context$1$0) {
     while (1) switch (context$1$0.prev = context$1$0.next) {
@@ -18,6 +19,8 @@ function test() {
     }
   }, test, this);
 });
+
+require("6to5/polyfill");
 
 var t = test();
 
