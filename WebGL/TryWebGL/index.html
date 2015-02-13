@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Try WebGL</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById('canvas');
+        var gl;
+        try {
+            gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+        } catch (e) { console.log(e); }
+
+        if (gl) {
+            gl.clearColor(0.0, 0.0, 0.0, 1.0);
+            gl.enable(gl.DEPTH_TEST);
+            gl.depthFunc(gl.LEQUAL);
+            gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+        }
+    </script>
+</body>
+</html>
