@@ -1,7 +1,7 @@
 require('6to5/polyfill');
 
 function timeout(duration = 0) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(resolve, duration);
   });
 }

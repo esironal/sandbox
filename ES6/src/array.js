@@ -10,3 +10,11 @@ var obj = {
 Array.from(obj);
 
 Array.of(1, 2, 3);
+
+[1, 3, 5, 7, 9].find(function (val, index, arr) {
+  return val > 4;
+});
+
+[1, 3, 5, 7, 9].findIndex(function (val, index, arr) {
+  return val > 4;
+});
